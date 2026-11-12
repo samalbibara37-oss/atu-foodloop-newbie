@@ -1,0 +1,291 @@
+{
+  "wastes": [
+    {
+      "name": "Пищевые отходы из зала",
+      "organizations": "ATU INN; столовая корп. 1, 2",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование / биогаз",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G2-H2",
+      "note": "Объедки после потребления"
+    },
+    {
+      "name": "Остатки нереализованной продукции",
+      "organizations": "ATU INN; столовая корп. 1, 2",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Передача (фудшеринг), иначе компост",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G3-H3",
+      "note": "Лучше предотвратить: передать, пока пригодно в пищу"
+    },
+    {
+      "name": "Остатки еды",
+      "organizations": "Кофейня",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование / биогаз",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G4-H4",
+      "note": null
+    },
+    {
+      "name": "Очистки овощей",
+      "organizations": "ATU INN; столовая корп. 1, 2",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G5-H5",
+      "note": "Отходы первичной обработки сырья"
+    },
+    {
+      "name": "Отходы фруктов и овощей",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G6-H6",
+      "note": null
+    },
+    {
+      "name": "Обрезки мясопродуктов",
+      "organizations": "ATU INN; столовая корп. 1, 2",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Частично",
+      "recommended": "Биогаз (анаэробное сбраживание)",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G7-H7",
+      "note": "В обычный компост мясо не принимают"
+    },
+    {
+      "name": "Мясные кости",
+      "organizations": "Кафедра ТПП",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Частично",
+      "recommended": "Биогаз (анаэробное сбраживание)",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G8-H8",
+      "note": "В обычный компост кости не принимают"
+    },
+    {
+      "name": "Рыбные кости",
+      "organizations": "Кафедра ТПП",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Частично",
+      "recommended": "Биогаз (анаэробное сбраживание)",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G9-H9",
+      "note": "В обычный компост кости не принимают"
+    },
+    {
+      "name": "Яичная скорлупа",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G10-H10",
+      "note": null
+    },
+    {
+      "name": "Кофейный жмых",
+      "organizations": "Кофейня",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G11-H11",
+      "note": "Хорошо компостируется"
+    },
+    {
+      "name": "Отходы образцов хлебобулочных изделий",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование / биогаз",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G12-H12",
+      "note": null
+    },
+    {
+      "name": "Отходы образцов кондитерских изделий",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Компостирование / биогаз",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G13-H13",
+      "note": "Печенье, карамель"
+    },
+    {
+      "name": "Сахароза",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Органические",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Биогаз (анаэробное сбраживание)",
+      "ef_landfill": 700.21,
+      "ef_recommended": 8.88,
+      "saving_formula": "=G14-H14",
+      "note": "Допущение: коэффициент как у пищевых отходов"
+    },
+    {
+      "name": "Отработанное масло",
+      "organizations": "ATU INN; столовая корп. 1, 2",
+      "category": "Специальные",
+      "unit": "л",
+      "recyclable": "Да",
+      "recommended": "Сдача спецорганизации (биодизель)",
+      "ef_landfill": 700.21,
+      "ef_recommended": 6.41,
+      "saving_formula": "=G15-H15",
+      "note": "Допущение: у DEFRA нет фактора для масла. 1 л ≈ 0,92 кг. В канализацию сливать нельзя"
+    },
+    {
+      "name": "Картонная тара",
+      "organizations": "ATU INN; столовая; кофейня",
+      "category": "Вторсырьё",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Сдача на переработку",
+      "ef_landfill": 1164.39,
+      "ef_recommended": 6.41,
+      "saving_formula": "=G16-H16",
+      "note": "Сухой и чистый картон"
+    },
+    {
+      "name": "ПЭТ-бутылка 1,0 л (растительное масло)",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Вторсырьё",
+      "unit": "кг",
+      "recyclable": "Частично",
+      "recommended": "Сдача на переработку",
+      "ef_landfill": 8.88,
+      "ef_recommended": 6.41,
+      "saving_formula": "=G17-H17",
+      "note": "Допущение: коэффициенты как у стекла. Бутылки из-под масла принимают не везде"
+    },
+    {
+      "name": "Стеклобутылка",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Вторсырьё",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Сдача на переработку",
+      "ef_landfill": 8.88,
+      "ef_recommended": 6.41,
+      "saving_formula": "=G18-H18",
+      "note": null
+    },
+    {
+      "name": "Алюминиевые банки",
+      "organizations": "Кафедра ТХиПП",
+      "category": "Вторсырьё",
+      "unit": "кг",
+      "recyclable": "Да",
+      "recommended": "Сдача на переработку",
+      "ef_landfill": 8.88,
+      "ef_recommended": 6.41,
+      "saving_formula": "=G19-H19",
+      "note": "Допущение: коэффициенты как у стекла"
+    },
+    {
+      "name": "Упаковочные отходы",
+      "organizations": "Кафедра ТПП",
+      "category": "Смешанные",
+      "unit": "кг",
+      "recyclable": "Частично",
+      "recommended": "Разделить: картон и ПЭТ — на переработку, остальное — ТБО",
+      "ef_landfill": 1164.39,
+      "ef_recommended": 6.41,
+      "saving_formula": "=G20-H20",
+      "note": "Допущение: считать как картон. Уточнить состав упаковки"
+    }
+  ],
+  "methods": [
+    {
+      "code": "DONATE",
+      "name": "Передача нереализованной продукции (фудшеринг, благотворительность)",
+      "applicable": "Остатки нереализованной продукции",
+      "factor": 0,
+      "rank": 1,
+      "note": "Отход не возникает. Только безопасная продукция с неистёкшим сроком годности"
+    },
+    {
+      "code": "FEED",
+      "name": "Передача на корм животным",
+      "applicable": "Очистки овощей, хлеб, отходы фруктов",
+      "factor": null,
+      "rank": 2,
+      "note": "Нет коэффициента DEFRA. Нужны договор и соблюдение ветеринарно-санитарных требований"
+    },
+    {
+      "code": "RECYCLE",
+      "name": "Сдача вторсырья на переработку",
+      "applicable": "Картон, ПЭТ, стекло, алюминий",
+      "factor": 6.41,
+      "rank": 3,
+      "note": "Только транспорт и переработка (методика DEFRA)"
+    },
+    {
+      "code": "OIL",
+      "name": "Сдача отработанного масла спецорганизации",
+      "applicable": "Отработанное фритюрное масло",
+      "factor": 6.41,
+      "rank": 3,
+      "note": "Допущение: как переработка. Масло идёт на биодизель"
+    },
+    {
+      "code": "AD",
+      "name": "Анаэробное сбраживание (биогаз)",
+      "applicable": "Все органические, включая мясо и кости",
+      "factor": 8.88,
+      "rank": 4,
+      "note": "DEFRA 2024: пищевые отходы, анаэробное сбраживание"
+    },
+    {
+      "code": "COMPOST",
+      "name": "Компостирование",
+      "applicable": "Овощи, фрукты, скорлупа, кофейный жмых, хлеб",
+      "factor": 8.88,
+      "rank": 4,
+      "note": "DEFRA 2024: пищевые отходы, компостирование"
+    },
+    {
+      "code": "TBO",
+      "name": "Вывоз ТБО на полигон (захоронение)",
+      "applicable": "Любые; сейчас способ по умолчанию в образцах",
+      "factor": 700.21,
+      "rank": 5,
+      "note": "Коэффициент зависит от вида: пищевые 700,21; картон 1 164,39; стекло 8,88"
+    }
+  ],
+  "source": "Справочники для Трека 1, предоставлены участницей; DEFRA 2024, ориентировочные для Казахстана"
+}

@@ -1,0 +1,2 @@
+# Optional: only for production serving. The local MVP uses Python standard library.
+waitress==3.0.2
